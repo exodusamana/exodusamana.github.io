@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exodus Amana</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f9ff;
+      color: #003366;
+    }
+    header {
+      background: #005fa3;
+      padding: 20px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      padding: 20px;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .featured, .videos, .stories {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .video, .story, .featured-video {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      flex: 1 1 300px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .about {
+      display: flex;
+      align-items: center;
+    }
+    .about img {
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      margin-right: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Exodus Amana</h1>
+    <nav>
+      <a href="#stories">Stories</a>
+      <a href="#videos">Videos</a>
+      <a href="#about">About Me</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section class="section" id="home">
+      <h2>Welcome to My Website</h2>
+      <p>Sharing stories and videos</p>
+      <div class="featured">
+        <div class="featured-video">
+          <h3>Featured Story</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="stories">
+      <h2>Stories</h2>
+      <div class="stories">
+        <div class="story">
+          <h3>Story Title 1</h3>
+          <p>Short description of the story. Posted on April 24, 2024.</p>
+        </div>
+        <div class="story">
+          <h3>Story Title 2</h3>
+          <p>Another story description with a preview.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="videos">
+      <h2>Videos</h2>
+      <div class="videos">
+        <div class="video">
+          <p>Video Placeholder 1</p>
+        </div>
+        <div class="video">
+          <p>Video Placeholder 2</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <img src="https://via.placeholder.com/120" alt="Exodus Amana">
+      <div>
+        <h2>About Me</h2>
+        <p>Hi, I'm Exodus Amana. I share stories and videos about life, learning, and creativity. Welcome to my space on the web!</p>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Contact</h2>
+      <p>Email: contact@exodusamana.com</p>
+    </section>
+  </div>
+</body>
+</html>
